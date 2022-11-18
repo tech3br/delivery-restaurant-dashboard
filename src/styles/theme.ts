@@ -2,10 +2,14 @@ import { DefaultTheme } from 'styled-components';
 
 export const theme: DefaultTheme = {
   colors: {
+    background: '#E5E5E5',
     white: '#FAFAFA',
     primary: '#7C0A02',
     secondary: '#B22222',
     tertiary: '#E25822',
+    yellow: '#FA9500',
+    blue: '#00B7FA',
+    green: '#38b000',
     gray0: '#FFFFFF',
     gray100: '#F2F2F2',
     gray200: '#CCCCCC',
@@ -16,55 +20,55 @@ export const theme: DefaultTheme = {
   typography: {
     heading: {
       display: {
-        fontSize: '56px',
+        fontSize: '3.5rem',
         fontWeight: 600,
         lineWeight: '120%'
       },
       h1: {
-        fontSize: '48px',
+        fontSize: '3rem',
         fontWeight: 600,
         lineWeight: '120%'
       },
       h2: {
-        fontSize: '40px',
+        fontSize: '2.5rem',
         fontWeight: 600,
         lineWeight: '120%'
       },
       h3: {
-        fontSize: '32px',
+        fontSize: '2rem',
         fontWeight: 600,
         lineWeight: '120%'
       },
       h4: {
-        fontSize: '24px',
+        fontSize: '1.5rem',
         fontWeight: 600,
         lineWeight: '120%'
       },
       h5: {
-        fontSize: '20px',
+        fontSize: '1.25rem',
         fontWeight: 600,
         lineWeight: '120%'
       },
       h6: {
-        fontSize: '16px',
+        fontSize: '1rem',
         fontWeight: 600,
         lineWeight: '120%'
       }
     },
     bodyText: {
       small: {
-        fontSize: '14px',
-        fontWeight: 400,
+        fontSize: '0.875rem',
+        fontWeight: 300,
         lineWeight: '150%'
       },
       medium: {
-        fontSize: '16px',
+        fontSize: '1rem',
         fontWeight: 400,
         lineWeight: '150%'
       },
       large: {
-        fontSize: '18px',
-        fontWeight: 400,
+        fontSize: '1.125rem',
+        fontWeight: 600,
         lineWeight: '150%'
       }
     }
