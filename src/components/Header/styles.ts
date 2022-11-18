@@ -1,27 +1,26 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.header`
+  background-color: ${({ theme }) => `${theme.colors.primary}`};
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  gap: 656px;
-
-  width: 100%;
+  justify-content: center;
   height: 198px;
-  padding: 0 112px;
-  left: 0px;
-  top: 0px;
+  align-items: center;
+`;
 
-  background-color: ${({ theme }) => theme.colors.primary};
+export const Content = styled.div`
+  width: 100%;
+  max-width: 1216px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const TitlesContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
 `;
 
 export const Title = styled.h3`
@@ -36,4 +35,30 @@ export const Subtitle = styled.p`
   font-size: ${({ theme }) => theme.typography.bodyText.medium.fontSize};
   font-weight: ${({ theme }) => theme.typography.bodyText.medium.fontWeight};
   line-height: ${({ theme }) => theme.typography.bodyText.medium.lineWeight};
+  text-align: end;
+`;
+
+export const LogoImage = styled.img`
+
+`;
+
+export const TextLogoTitle = styled(Title)`
+
+`;
+
+export const TextLogoSubtitle = styled(Subtitle)`
+
+`;
+
+export const LogoContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+`;
+
+export const LogoContainerTitles = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 `;
