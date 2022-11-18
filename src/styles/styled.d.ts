@@ -5,10 +5,14 @@ import 'styled-components';
 declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
+      background: string;
       white: string;
       primary: string;
       secondary: string;
       tertiary: string;
+      yellow: string;
+      blue: string;
+      green: string;
       gray0: string;
       gray100: string;
       gray200: string;
